@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
+</head>
+<body>
+    <header>
+        <h1><span>Tip</span> calculator</h1>
+    </header>
+    <div class="wrapper">
+        <label for="amount">Bill Amount</label> <input type="text" id="bill">
+        <label for="percantage">Percentage Tip</label><input type="text" id="percent">
+        <label for="tip">Tip Amount</label><input type="text" disabled id="tip-amount">
+        <label for="total">Total</label><input type="text" disabled id="total">
+        <button id="btn-el">calculate</button>
+        <input type="submit" value="Clear" id="danger">
+    </div>
+    
+    <script src="./assets/scripts/index.js"></script>
+</body>
+</html>
